@@ -23,6 +23,7 @@ function setup(){
     block7 = new Block(480, 275,30,40);
 
     block8 = new Block(330, 235,30,40);
+    
     //layer2
     blockz1 = new Block(360,235,30,40);
     blockz2 = new Block(390,235,30,40);
@@ -42,7 +43,7 @@ function setup(){
     //layer5
     blockz11 = new Block(700,135,30,40);
 
-    slingShot = new SlingShot(200,50);
+    slingShot = new SlingShot(200,50,40,50);
 }
 
 function draw(){
@@ -54,6 +55,7 @@ fill("brown");
 stand1.display();
 stand2.display();
 fill("skyBlue");
+
 
 block1.display();
 block2.display();
